@@ -41,5 +41,26 @@ let pessoa = {
 
 };
 
-console.log(pessoa.alturaPessoa,pessoa.idade,pessoa.nome)
+console.log(pessoa.alturaPessoa,pessoa.idade,pessoa.nome);
 
+// Arrays
+
+let familia = [true,100,'João',700];
+
+console.log(familia.length);
+
+console.log(familia[1]);
+
+// functions
+
+let corSite = "Azul";
+
+function resetaCor(cor,tonalidade) { // Nome = verbo + substantivo.
+
+    corSite = cor + ' ' + tonalidade;
+
+}; 
+
+resetaCor("Vermelho","Claro");
+
+console.log(corSite);
