@@ -95,7 +95,6 @@ let resultado = idades >= 18 ? "Maior de idade" : "Menor de idade"
 
 console.log(resultado) // Maior de idade
 
-
 // Outro exemplo
 
 let numero = 10
