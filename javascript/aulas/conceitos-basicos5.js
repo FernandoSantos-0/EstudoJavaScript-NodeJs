@@ -28,7 +28,7 @@
 
     } while (b > 1);
 
-// for in
+// for in (indice)
 
     const pessoa = {
         nome: "Jonathan",
@@ -45,7 +45,7 @@
         console.log(indice,cores[indice]);
     };
 
-// for of
+// for of (percore valor)
 
     for (let cor of cores){
         console.log(cor);
