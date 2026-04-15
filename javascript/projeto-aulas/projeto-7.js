@@ -1,5 +1,3 @@
-
-
 function somaMultiplos(valor){
 
     let soma = 0;
